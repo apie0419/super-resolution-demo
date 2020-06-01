@@ -8,6 +8,18 @@
 
 3. 將 bicubic 圖片丟入模型並得到輸出圖片
 
+## Environment
+
+- Ubuntu 18.04
+- Python 3.6
+
+### Dependencies
+
+- numpy
+- pillow (6.1.0)
+- scipy (1.2.1)
+- pytorch (1.4.0)
+
 ## Usage
 
 ```
