@@ -36,7 +36,7 @@ optional arguments:
 **Example**
 
 ```
-$ python --cuda --image demo_pic/butterfly.bmp
+$ python demo.py --cuda --image demo_pic/butterfly.bmp
 ```
 
 **Output Files**
