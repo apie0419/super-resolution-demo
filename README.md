@@ -48,3 +48,21 @@ $ python demo.py --cuda --image demo_pic/butterfly.bmp
 - input.bmp - origin.bmp 再利用 bicubic 放大到 (90, 90) 所產生的圖片
 
 - output.bmp - 利用 input.bmp 輸入模型預測出來的圖片，大小為 (90, 90)
+
+## Training
+
+
+**Prepare Dataset**
+
+Use generate_train.m
+
+**Train Model**
+
+```
+usage: train.py [-h] [--cuda] [--gpus GPUS]
+               
+optional arguments:
+  -h, --help            Show this help message and exit
+  --cuda                Use cuda
+  --gpus GPUS           gpu ids (default: 0)
+```
